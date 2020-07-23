@@ -92,7 +92,7 @@ const App = () => {
   return (
     <div className="App container center">
       <h3>QUIZ APP</h3>
-      {!playAgain && gameOver || userAnswers.length === Total_Questions ? (<button className="start" onClick={ startQuiz }>
+      {!playAgain && userAnswers.length === Total_Questions ? (<button className="start" onClick={ startQuiz }>
         Start
       </button>) : null}
   {!gameOver ? (<h2 className="score">Score: {score}</h2>) : null}
