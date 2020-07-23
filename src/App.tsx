@@ -25,7 +25,7 @@ const App = () => {
   // console.log(fetchQuiz(Total_Questions, Difficulty.EASY))
 
   const startQuiz = async () => {
-    setPlayAgain(true);
+   
     setLoading(true);
     setGameOver(false);
 
