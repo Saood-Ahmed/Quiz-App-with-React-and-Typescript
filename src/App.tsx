@@ -20,7 +20,7 @@ const App = () => {
   const [userAnswers, setUserAnswers] = useState<AnswerObject[]>([]);
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(true);
-  const [playAgain, setPlayAgain] = useState(false);
+ 
   const [results, setResults] = useState(false);
   // console.log(fetchQuiz(Total_Questions, Difficulty.EASY))
 
